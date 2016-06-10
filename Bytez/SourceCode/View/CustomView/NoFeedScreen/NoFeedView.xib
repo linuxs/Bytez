@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="NoFeedView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nofeedbackground.png" translatesAutoresizingMaskIntoConstraints="NO" id="VI0-bK-3uE">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                    <animations/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Share with other Batz" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tI9-dP-yR5">
+                    <rect key="frame" x="60" y="311" width="200" height="36"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mvo-8y-FH0">
+                    <rect key="frame" x="52" y="37" width="216" height="36"/>
+                    <animations/>
+                    <attributedString key="attributedText">
+                        <fragment content="Be the first to ">
+                            <attributes>
+                                <color key="NSColor" red="0.17537172379032259" green="0.49089591733870969" blue="0.36690398185483869" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="18" name="HelveticaNeue-Bold"/>
+                                <font key="NSOriginalFont" size="18" name="GillSans"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="Post Cool">
+                            <attributes>
+                                <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="18" name="HelveticaNeue-Bold"/>
+                                <font key="NSOriginalFont" size="17" name="GillSans-Bold"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <color key="highlightedColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bHq-r9-umb">
+                    <rect key="frame" x="70" y="80" width="200" height="36"/>
+                    <animations/>
+                    <attributedString key="attributedText">
+                        <fragment content="Pics">
+                            <attributes>
+                                <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="18" name="HelveticaNeue-Bold"/>
+                                <font key="NSOriginalFont" size="17" name="GillSans-Bold"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="18" name="HelveticaNeue-Bold"/>
+                                <font key="NSOriginalFont" size="17" name="GillSans"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="in your Area">
+                            <attributes>
+                                <color key="NSColor" red="0.1764705882352941" green="0.49019607843137253" blue="0.36862745098039218" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="18" name="HelveticaNeue-Bold"/>
+                                <font key="NSOriginalFont" size="17" name="GillSans"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BatWalk_Dict.png" translatesAutoresizingMaskIntoConstraints="NO" id="jmd-9x-YCO">
+                    <rect key="frame" x="40" y="133" width="240" height="128"/>
+                    <animations/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Default.png" translatesAutoresizingMaskIntoConstraints="NO" id="4ex-jd-3d3">
+                    <rect key="frame" x="155" y="355" width="74" height="55"/>
+                    <animations/>
+                </imageView>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="VI0-bK-3uE" secondAttribute="bottom" id="5Wc-JY-88V"/>
+                <constraint firstItem="VI0-bK-3uE" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="JTc-wb-PjB"/>
+                <constraint firstAttribute="trailing" secondItem="VI0-bK-3uE" secondAttribute="trailing" id="qzm-4O-0g6"/>
+                <constraint firstItem="VI0-bK-3uE" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="wCB-TV-zps"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="imgViewArrow" destination="4ex-jd-3d3" id="SAg-HD-2uP"/>
+                <outlet property="imgViewLogo" destination="jmd-9x-YCO" id="LbW-Go-sp9"/>
+                <outlet property="lblPicInYourArea" destination="bHq-r9-umb" id="EOK-3f-bCE"/>
+                <outlet property="lblPostCool" destination="Mvo-8y-FH0" id="Lcd-QF-ZPp"/>
+                <outlet property="lblShare" destination="tI9-dP-yR5" id="3tG-4X-jDw"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="BatWalk_Dict.png" width="256" height="256"/>
+        <image name="Default.png" width="320" height="480"/>
+        <image name="nofeedbackground.png" width="320" height="569"/>
+    </resources>
+</document>
